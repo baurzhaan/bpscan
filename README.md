@@ -27,14 +27,12 @@ A lightweight CLI tool to scan Chrome/Edge policy settings against CIS Benchmark
 
 2. **Run the tool**
 
-   * Microsoft Edge version
-
+Microsoft Edge version
 ```bash
 python bpscan.py --file Policies.html --browser edge --cis data/cis-edge-v4.0.0-27.10.25.yaml --output edge.csv
 ```
 
-   * Google Chrome version
-
+Google Chrome version
 ```bash
 python bpscan.py --file Policies.html --browser chrome --cis data/cis-chrome-v3.0.0-29.01.24.yaml --output chrome.csv
 ```
