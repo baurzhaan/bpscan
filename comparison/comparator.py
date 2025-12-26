@@ -42,7 +42,7 @@ def compare_cis_to_browser(
             "cis_recommended_value": cis_recommended_value,
             "compliant": compliant,
             "value_source": source,
-            "CIS ID": cis_entry.get("cis_id"),
+            "cis_id": cis_entry.get("cis_id"),
         })
 
     return results

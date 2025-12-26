@@ -49,10 +49,10 @@ python bpscan.py --file Policies.html --browser chrome --cis data/cis-chrome-v3.
 ### 📊 Example CSV Report (`output.csv`)
 
 ```markdown
-| policy_id | policy_name | level | browser_value | effective_value | cis_recommended_value | compliant | value_source | rationale | impact
-| EnableMediaRouter | Enable Google Cast | L1 | false | false | ['false'] | True | explicit | rationale | impact |
-| CACertificateManagementAllowed | Allow users to manage installed CA certificates. | L1 |  | 1 | ['2'] | False | default | rationale | impact
-| GuidedSwitchEnabled | Guided Switch Enabled | L1 |  | true | ['false'] | False | default | rationale | impact
+| policy_id | policy_name | level | browser_value | effective_value | cis_recommended_value | compliant | value_source | cis_id
+| EnableMediaRouter | Enable Google Cast | L1 | false | false | ['false'] | True | explicit | 1.2.1 (L1)
+| CACertificateManagementAllowed | Allow users to manage installed CA certificates. | L1 |  | 1 | ['2'] | False | default | 1.3.1 (L1)
+| GuidedSwitchEnabled | Guided Switch Enabled | L1 |  | true | ['false'] | False | default | 1.14.1 (L1)
 ```
 
 ## 🔍 How to interpret the result
