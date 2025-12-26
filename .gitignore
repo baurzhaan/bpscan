@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+venv/
+
+# Editor
+.vscode/
+
+# Local data
+notes/*
+tools/*
+*.log
+*.txt
+!requirements.txt
+*.xlsx
+*.html
+*.csv
+*.csv#

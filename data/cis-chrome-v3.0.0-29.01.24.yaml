@@ -1,0 +1,819 @@
+AllowCrossOriginAuthPrompt:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AllowCrossOriginAuthPrompt'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Cross-origin HTTP Authentication prompts'
+  cis_id: '1.1.1 (L1)'
+SafeBrowsingAllowlistDomains:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#SafeBrowsingAllowlistDomains'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Configure the list of domains on which Safe Browsing will not trigger warnings.'
+  cis_id: '1.2.1 (L1)'
+SafeBrowsingProtectionLevel:
+  default_value: '1, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#SafeBrowsingProtectionLevel'
+  level: 'L1'
+  recommended_value: ['1', '2']
+  policy_name: 'Safe Browsing Protection Level'
+  cis_id: '1.2.2 (L1)'
+MediaRouterCastAllowAllIPs:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#MediaRouterCastAllowAllIPs'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow Google Cast to connect to Cast devices on all IP addresses.'
+  cis_id: '1.3 (L1)'
+BrowserNetworkTimeQueriesEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#BrowserNetworkTimeQueriesEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Allow queries to a Google time service'
+  cis_id: '1.4 (L1)'
+AudioSandboxEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AudioSandboxEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Allow the audio sandbox to run'
+  cis_id: '1.5 (L1)'
+PromptForDownloadLocation:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#PromptForDownloadLocation'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Ask where to save each file before downloading'
+  cis_id: '1.6 (L1)'
+BackgroundModeEnabled:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#BackgroundModeEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Continue running background apps when Google Chrome is closed'
+  cis_id: '1.7 (L1)'
+SafeSitesFilterBehavior:
+  default_value: '0'
+  doc_url: 'https://chromeenterprise.google/policies/#SafeSitesFilterBehavior'
+  level: 'L2'
+  recommended_value: ['1']
+  policy_name: 'Control SafeSites adult content filtering.'
+  cis_id: '1.8 (L2)'
+ChromeVariations:
+  default_value: '0, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ChromeVariations'
+  level: 'L1'
+  recommended_value: ['0']
+  policy_name: 'Determine the availability of variations'
+  cis_id: '1.9 (L1)'
+CertificateTransparencyEnforcementDisabledForLegacyCas:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#CertificateTransparencyEnforcementDisabledForLegacyCas'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Disable Certificate Transparency enforcement for a list of Legacy Certificate Authorities'
+  cis_id: '1.10 (L1)'
+CertificateTransparencyEnforcementDisabledForCas:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#CertificateTransparencyEnforcementDisabledForCas'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Disable Certificate Transparency enforcement for a list of subjectPublicKeyInfo hashes'
+  cis_id: '1.11 (L1)'
+CertificateTransparencyEnforcementDisabledForUrls:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#CertificateTransparencyEnforcementDisabledForUrls'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Disable Certificate Transparency enforcement for a list of URLs'
+  cis_id: '1.12 (L1)'
+SavingBrowserHistoryDisabled:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#SavingBrowserHistoryDisabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Disable saving browser history'
+  cis_id: '1.13 (L1)'
+DNSInterceptionChecksEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DNSInterceptionChecksEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'DNS interception checks enabled'
+  cis_id: '1.14 (L1)'
+ComponentUpdatesEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ComponentUpdatesEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable component updates in Google Chrome'
+  cis_id: '1.15 (L1)'
+GloballyScopeHTTPAuthCacheEnabled:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#GloballyScopeHTTPAuthCacheEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable globally scoped HTTP auth cache'
+  cis_id: '1.16 (L1)'
+EnableOnlineRevocationChecks:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#EnableOnlineRevocationChecks'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable online OCSP/CRL checks'
+  cis_id: '1.17 (L1)'
+CommandLineFlagSecurityWarningsEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#CommandLineFlagSecurityWarningsEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable security warnings for command-line flags'
+  cis_id: '1.18 (L1)'
+ThirdPartyBlockingEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ThirdPartyBlockingEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable third party software injection blocking'
+  cis_id: '1.19 (L1)'
+EnterpriseHardwarePlatformAPIEnabled:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#EnterpriseHardwarePlatformAPIEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enables managed extensions to use the Enterprise Hardware Platform API'
+  cis_id: '1.20 (L1)'
+ForceEphemeralProfiles:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ForceEphemeralProfiles'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Ephemeral profile'
+  cis_id: '1.21 (L1)'
+ImportAutofillFormData:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ImportAutofillFormData'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Import autofill form data from default browser on first run'
+  cis_id: '1.22 (L1)'
+ImportHomepage:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ImportHomepage'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Import of homepage from default browser on first run'
+  cis_id: '1.23 (L1)'
+ImportSearchEngine:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ImportSearchEngine'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Import search engines from default browser on first run'
+  cis_id: '1.24 (L1)'
+HSTSPolicyBypassList:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#HSTSPolicyBypassList'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'List of names that will bypass the HSTS policy check'
+  cis_id: '1.25 (L1)'
+OverrideSecurityRestrictionsOnInsecureOrigin:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#OverrideSecurityRestrictionsOnInsecureOrigin'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Origins or hostname patterns for which restrictions on insecure origins should not apply'
+  cis_id: '1.26 (L1)'
+LookalikeWarningAllowlistDomains:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#LookalikeWarningAllowlistDomains'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Suppress lookalike domain warnings on domains'
+  cis_id: '1.27 (L1)'
+SuppressUnsupportedOSWarning:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#SuppressUnsupportedOSWarning'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Suppress the unsupported OS warning'
+  cis_id: '1.28 (L1)'
+WebRtcLocalIpsAllowedUrls:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#WebRtcLocalIpsAllowedUrls'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'URLs for which local IPs are exposed in WebRTC ICE candidates'
+  cis_id: '1.29 (L1)'
+DefaultInsecureContentSetting:
+  default_value: '3'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultInsecureContentSetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Control use of insecure content exceptions'
+  cis_id: '2.2.1 (L1)'
+DefaultWebBluetoothGuardSetting:
+  default_value: '3'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultWebBluetoothGuardSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the Web Bluetooth API'
+  cis_id: '2.2.2 (L2)'
+DefaultWebUsbGuardSetting:
+  default_value: '3'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultWebUsbGuardSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the WebUSB API'
+  cis_id: '2.2.3 (L2)'
+DefaultNotificationsSetting:
+  default_value: '3'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultNotificationsSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Default notification setting'
+  cis_id: '2.2.4 (L2)'
+PdfLocalFileAccessAllowedForDomains:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#PdfLocalFileAccessAllowedForDomains'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Allow local file access to file:// URLs on these sites in the PDF Viewer'
+  cis_id: '2.2.5 (L1)'
+BlockExternalExtensions:
+  default_value: 'false'
+  doc_url: 'https://chromeenterprise.google/policies/#BlockExternalExtensions'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Blocks external extensions from being installed'
+  cis_id: '2.3.1 (L1)'
+ExtensionAllowedTypes:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#ExtensionAllowedTypes'
+  level: 'L1'
+  recommended_value: ['extension,hosted_app,platform_app,theme']
+  policy_name: 'Configure allowed app/extension types'
+  cis_id: '2.3.2 (L1)'
+ExtensionInstallBlocklist:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#ExtensionInstallBlocklist'
+  level: 'L1'
+  recommended_value: ['*']
+  policy_name: 'Configure extension installation blocklist'
+  cis_id: '2.3.3 (L1)'
+DefaultThirdPartyStoragePartitioningSetting:
+  default_value: '1'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultThirdPartyStoragePartitioningSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Default third-party storage partitioning setting'
+  cis_id: '2.3.4 (L2)'
+ThirdPartyStoragePartitioningBlockedForOrigins:
+  default_value: 'DefaultThirdPartyStoragePartitioningSetting will apply'
+  doc_url: 'https://chromeenterprise.google/policies/#ThirdPartyStoragePartitioningBlockedForOrigins'
+  level: 'L1'
+  recommended_value: 'configure a curated list of sites to block'
+  policy_name: 'Disable third-party storage partitioning for specific top-level origins'
+  cis_id: '2.3.5 (L1)'
+ExtensionManifestV2Availability:
+  default_value: '0'
+  doc_url: 'https://chromeenterprise.google/policies/#ExtensionManifestV2Availability'
+  level: 'L2'
+  recommended_value: ['3']
+  policy_name: 'Control Manifest v2 extension availability'
+  cis_id: '2.3.6 (L2)'
+ExtensionUnpublishedAvailability:
+  default_value: '0'
+  doc_url: 'https://chromeenterprise.google/policies/#ExtensionUnpublishedAvailability'
+  level: 'L1'
+  recommended_value: ['1']
+  policy_name: 'Control availability of extensions unpublished on the Chrome Web Store.'
+  cis_id: '2.3.7 (L1)'
+AuthSchemes:
+  default_value: 'basic,digest,negotiate,ntlm'
+  doc_url: 'https://chromeenterprise.google/policies/#AuthSchemes'
+  level: 'L2'
+  recommended_value: ['negotiate,ntlm']
+  policy_name: 'Supported authentication schemes'
+  cis_id: '2.4.1 (L2)'
+NativeMessagingBlocklist:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#NativeMessagingBlocklist'
+  level: 'L2'
+  recommended_value: ['*']
+  policy_name: 'Configure native messaging blocklist'
+  cis_id: '2.5.1 (L2)'
+PasswordManagerEnabled:
+  default_value: 'true, but user can turn off password saving'
+  doc_url: 'https://chromeenterprise.google/policies/#PasswordManagerEnabled'
+  level: 'L1'
+  recommended_value: ['true', 'false']
+  policy_name: 'Enable saving passwords to the password manager'
+  cis_id: '2.6.1 (L1)'
+CloudPrintProxyEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#CloudPrintProxyEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable Google Cloud Print proxy'
+  cis_id: '2.7.1 (L1)'
+RemoteAccessHostAllowRemoteAccessConnections:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostAllowRemoteAccessConnections'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow remote access connections to this machine'
+  cis_id: '2.8.1 (L1)'
+RemoteAccessHostAllowUiAccessForRemoteAssistance:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostAllowUiAccessForRemoteAssistance'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow remote users to interact with elevated windows in remote assistance sessions'
+  cis_id: '2.8.2 (L1)'
+RemoteAccessHostClientDomainList:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostClientDomainList'
+  level: 'L1'
+  recommended_value: ['Set at least one domain that you trust. Don''t keep the list empty']
+  policy_name: 'Configure the required domain names for remote access clients'
+  cis_id: '2.8.3 (L1)'
+RemoteAccessHostRequireCurtain:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostRequireCurtain'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable curtaining of remote access hosts'
+  cis_id: '2.8.4 (L1)'
+RemoteAccessHostFirewallTraversal:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostFirewallTraversal'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable firewall traversal from remote access host'
+  cis_id: '2.8.5 (L1)'
+RemoteAccessHostAllowClientPairing:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostAllowClientPairing'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable or disable PIN-less authentication for remote access hosts'
+  cis_id: '2.8.6 (L1)'
+RemoteAccessHostAllowRelayedConnection:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteAccessHostAllowRelayedConnection'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable the use of relay servers by the remote access host'
+  cis_id: '2.8.7 (L1)'
+FirstPartySetsEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#FirstPartySetsEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable First-Party Sets.'
+  cis_id: '2.9.1 (L1)'
+CloudAPAuthEnabled:
+  default_value: '0'
+  doc_url: 'https://chromeenterprise.google/policies/#CloudAPAuthEnabled'
+  level: 'L1'
+  recommended_value: ['1']
+  policy_name: 'Allow automatic sign-in to Microsoft® cloud identity providers'
+  cis_id: '2.10.1 (L1)'
+DownloadRestrictions:
+  default_value: '0, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DownloadRestrictions'
+  level: 'L1'
+  recommended_value: ['4']
+  policy_name: 'Allow download restrictions'
+  cis_id: '2.11 (L1)'
+SSLErrorOverrideAllowed:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#SSLErrorOverrideAllowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow proceeding from the SSL warning page'
+  cis_id: '2.12 (L2)'
+DisableSafeBrowsingProceedAnyway:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DisableSafeBrowsingProceedAnyway'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Disable proceeding from the Safe Browsing warning page'
+  cis_id: '2.13 (L1)'
+SitePerProcess:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#SitePerProcess'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Require Site Isolation for every site'
+  cis_id: '2.14 (L1)'
+ForceGoogleSafeSearch:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ForceGoogleSafeSearch'
+  level: 'L2'
+  recommended_value: ['true']
+  policy_name: 'Force Google SafeSearch'
+  cis_id: '2.15 (L2)'
+RelaunchNotification:
+  default_value: '2, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#RelaunchNotification'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Notify a user that a browser relaunch or device restart is recommended or required'
+  cis_id: '2.16 (L1)'
+ProxyMode:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#ProxyMode'
+  level: 'L1'
+  recommended_value: ['There should be no "ProxyMode": "auto_detect" configuration']
+  policy_name: 'Choose how to specify proxy server settings'
+  cis_id: '2.17 (L1)'
+ProxySettings:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#ProxySettings'
+  level: 'L1'
+  recommended_value: ['There should be no "ProxyMode": "auto_detect" configuration']
+  policy_name: 'Choose how to specify proxy server settings'
+  cis_id: '2.17 (L1)'
+RequireOnlineRevocationChecksForLocalAnchors:
+  default_value: 'false'
+  doc_url: 'https://chromeenterprise.google/policies/#RequireOnlineRevocationChecksForLocalAnchors'
+  level: 'L2'
+  recommended_value: ['true']
+  policy_name: 'Require online OCSP/CRL checks for local trust anchors'
+  cis_id: '2.18 (L2)'
+RelaunchNotificationPeriod:
+  default_value: '604800000'
+  doc_url: 'https://chromeenterprise.google/policies/#RelaunchNotificationPeriod'
+  level: 'L1'
+  recommended_value: ['86400000']
+  policy_name: 'Set the time period for update notifications'
+  cis_id: '2.19 (L1)'
+AllowWebAuthnWithBrokenTlsCerts:
+  default_value: 'false'
+  doc_url: 'https://chromeenterprise.google/policies/#AllowWebAuthnWithBrokenTlsCerts'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow Web Authentication requests on sites with broken TLS certificates.'
+  cis_id: '2.20 (L1)'
+DomainReliabilityAllowed:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#DomainReliabilityAllowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow reporting of domain reliability related data'
+  cis_id: '2.21 (L1)'
+EncryptedClientHelloEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#EncryptedClientHelloEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable TLS Encrypted ClientHello'
+  cis_id: '2.22 (L1)'
+EnterpriseProfileCreationKeepBrowsingData:
+  default_value: 'false'
+  doc_url: 'https://chromeenterprise.google/policies/#EnterpriseProfileCreationKeepBrowsingData'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Keep browsing data when creating enterprise profile by default'
+  cis_id: '2.24 (L1)'
+FileOrDirectoryPickerWithoutGestureAllowedForOrigins:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#FileOrDirectoryPickerWithoutGestureAllowedForOrigins'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Allow file or directory picker APIs to be called without prior user gesture'
+  cis_id: '2.25 (L1)'
+GoogleSearchSidePanelEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#GoogleSearchSidePanelEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable Google Search Side Panel'
+  cis_id: '2.26 (L1)'
+HttpAllowlist:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#HttpAllowlist'
+  level: 'L1'
+  recommended_value: ['Keep the list properly configured']
+  policy_name: 'HTTP Allowlist'
+  cis_id: '2.27 (L1)'
+HttpsUpgradesEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#HttpsUpgradesEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable automatic HTTPS upgrades'
+  cis_id: '2.28 (L1)'
+RendererAppContainerEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#RendererAppContainerEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable Renderer App Container'
+  cis_id: '2.30 (L1)'
+StrictMimetypeCheckForWorkerScriptsEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#StrictMimetypeCheckForWorkerScriptsEnabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable strict MIME type checking for worker scripts'
+  cis_id: '2.31 (L1)'
+RemoteDebuggingAllowed:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#RemoteDebuggingAllowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow remote debugging'
+  cis_id: '2.32 (L1)'
+DefaultCookiesSetting:
+  default_value: '1'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultCookiesSetting'
+  level: 'L2'
+  recommended_value: ['4']
+  policy_name: 'Default cookies setting'
+  cis_id: '3.1.1 (L2)'
+DefaultGeolocationSetting:
+  default_value: '3'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultGeolocationSetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Default geolocation setting'
+  cis_id: '3.1.2 (L1)'
+EnableMediaRouter:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#EnableMediaRouter'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable Google Cast'
+  cis_id: '3.2.1 (L1)'
+PaymentMethodQueryEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#PaymentMethodQueryEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow websites to query for available payment methods.'
+  cis_id: '3.3 (L1)'
+BlockThirdPartyCookies:
+  default_value: 'false'
+  doc_url: 'https://chromeenterprise.google/policies/#BlockThirdPartyCookies'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Block third party cookies'
+  cis_id: '3.4 (L1)'
+BrowserSignin:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#BrowserSignin'
+  level: 'L2'
+  recommended_value: ['0']
+  policy_name: 'Browser sign in settings'
+  cis_id: '3.5 (L2)'
+SyncDisabled:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#SyncDisabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Disable synchronization of data with Google'
+  cis_id: '3.7 (L1)'
+AlternateErrorPagesEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AlternateErrorPagesEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable alternate error pages'
+  cis_id: '3.8 (L1)'
+AllowDeletingBrowserHistory:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#AllowDeletingBrowserHistory'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable deleting browser and download history'
+  cis_id: '3.9 (L1)'
+NetworkPredictionOptions:
+  default_value: '0, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#NetworkPredictionOptions'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Enable network prediction'
+  cis_id: '3.10 (L1)'
+SpellCheckServiceEnabled:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#SpellCheckServiceEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable or disable spell checking web service'
+  cis_id: '3.11 (L1)'
+MetricsReportingEnabled:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#MetricsReportingEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable reporting of usage and crash-related data'
+  cis_id: '3.12 (L1)'
+SafeBrowsingForTrustedSourcesEnabled:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#SafeBrowsingForTrustedSourcesEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable Safe Browsing for trusted sources'
+  cis_id: '3.13 (L1)'
+SearchSuggestEnabled:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#SearchSuggestEnabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable search suggestions'
+  cis_id: '3.14 (L2)'
+TranslateEnabled:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#TranslateEnabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable Translate'
+  cis_id: '3.15 (L2)'
+UrlKeyedAnonymizedDataCollectionEnabled:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#UrlKeyedAnonymizedDataCollectionEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable URL-keyed anonymized data collection'
+  cis_id: '3.16 (L1)'
+ScreenCaptureAllowed:
+  default_value: 'true'
+  doc_url: 'https://chromeenterprise.google/policies/#ScreenCaptureAllowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or deny screen capture'
+  cis_id: '4.1.1 (L2)'
+DefaultSerialGuardSetting:
+  default_value: '3, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultSerialGuardSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the Serial API'
+  cis_id: '4.2.1 (L2)'
+DefaultSensorsSetting:
+  default_value: '1, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultSensorsSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Default sensors setting'
+  cis_id: '4.2.2 (L2)'
+ClipboardAllowedForUrls:
+  default_value: 'Unset - means DefaultClipboardSetting applies for all sites'
+  doc_url: 'https://chromeenterprise.google/policies/#ClipboardAllowedForUrls'
+  level: 'L1'
+  recommended_value: ['set individually to your organization''s allowed URLs']
+  policy_name: 'Allow clipboard on these sites'
+  cis_id: '4.2.3 (L1)'
+ClipboardBlockedForUrls:
+  default_value: 'Unset - means DefaultClipboardSetting applies for all sites'
+  doc_url: 'https://chromeenterprise.google/policies/#ClipboardBlockedForUrls'
+  level: 'L1'
+  recommended_value: ['set individually to your organization''s blocked URLs']
+  policy_name: 'Block clipboard on these sites'
+  cis_id: '4.2.4 (L1)'
+DefaultClipboardSetting:
+  default_value: '3, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultClipboardSetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Default clipboard setting'
+  cis_id: '4.2.5 (L1)'
+DefaultWindowManagementSetting:
+  default_value: '3, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DefaultWindowManagementSetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Default Window Management permission setting'
+  cis_id: '4.2.6 (L2)'
+WindowManagementAllowedForUrls:
+  default_value: 'Unset - means DefaultWindowManagementSetting applies to the site'
+  doc_url: 'https://chromeenterprise.google/policies/#WindowManagementAllowedForUrls'
+  level: 'L2'
+  recommended_value: ['set individually to your organization''s allowed URLs']
+  policy_name: 'Allow Window Management permission on these sites'
+  cis_id: '4.2.7 (L2)'
+WindowManagementBlockedForUrls:
+  default_value: 'Unset - means DefaultWindowManagementSetting applies to the site'
+  doc_url: 'https://chromeenterprise.google/policies/#WindowManagementBlockedForUrls'
+  level: 'L2'
+  recommended_value: ['set individually to your organization''s blocked URLs']
+  policy_name: 'Block Window Management permission on these sites'
+  cis_id: '4.2.8 (L2)'
+AllowFileSelectionDialogs:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AllowFileSelectionDialogs'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow invocation of file selection dialogs'
+  cis_id: '4.3 (L2)'
+AudioCaptureAllowed:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AudioCaptureAllowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or deny audio capture'
+  cis_id: '4.4 (L2)'
+VideoCaptureAllowed:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#VideoCaptureAllowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or deny video capture'
+  cis_id: '4.5 (L2)'
+UserFeedbackAllowed:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#UserFeedbackAllowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow user feedback'
+  cis_id: '4.6 (L1)'
+DnsOverHttpsMode:
+  default_value: 'off'
+  doc_url: 'https://chromeenterprise.google/policies/#DnsOverHttpsMode'
+  level: 'L2'
+  recommended_value: ['secure']
+  policy_name: 'Controls the mode of DNS-over-HTTPS'
+  cis_id: '4.7 (L2)'
+AutofillAddressEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AutofillAddressEnabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable AutoFill for addresses'
+  cis_id: '4.8 (L2)'
+AutofillCreditCardEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#AutofillCreditCardEnabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable AutoFill for credit cards'
+  cis_id: '4.9 (L1)'
+ImportSavedPasswords:
+  default_value: 'false, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ImportSavedPasswords'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Import saved passwords from default browser on first run'
+  cis_id: '4.10 (L1)'
+SyncTypesListDisabled:
+  default_value: ''
+  doc_url: 'https://chromeenterprise.google/policies/#SyncTypesListDisabled'
+  level: 'L1'
+  recommended_value: ['passwords']
+  policy_name: 'List of types that should be excluded from synchronization'
+  cis_id: '4.11 (L1)'
+ScreenCaptureAllowed:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#ScreenCaptureAllowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or deny screen capture'
+  cis_id: '4.12 (L2)'
+BrowserGuestModeEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#BrowserGuestModeEnabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable guest mode in browser'
+  cis_id: '5.1 (L2)'
+IncognitoModeAvailability:
+  default_value: '0, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#IncognitoModeAvailability'
+  level: 'L2'
+  recommended_value: ['1']
+  policy_name: 'Incognito mode availability'
+  cis_id: '5.2 (L2)'
+DiskCacheSize:
+  default_value: 'Default size, but user can change this setting'
+  doc_url: 'https://chromeenterprise.google/policies/#DiskCacheSize'
+  level: 'L1'
+  recommended_value: ['250609664']
+  policy_name: 'Set disk cache size in bytes'
+  cis_id: '5.3 (L1)'
+InsecureHashesInTLSHandshakesEnabled:
+  default_value: 'true'
+  doc_url: 'https://www.tenable.com/audits/items/CIS_Google_Chrome_L1_v3.0.0.audit:3709575294b8d2d94316f7c6c7baaffe'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Insecure Hashes in TLS Handshakes Enabled'
+  cis_id: '2.29 (L1)'
+EnforceLocalAnchorConstraintsEnabled:
+  default_value: 'true'
+  doc_url: 'https://www.tenable.com/audits/items/CIS_Google_Chrome_L2_v3.0.0.audit:2890c9d19ee3540bdc97b37070d50570'
+  level: 'L2'
+  recommended_value: ['true']
+  policy_name: 'Determines whether the built-in certificate verifier will enforce constraints encoded into trust anchors loaded from the platform trust store'
+  cis_id: '2.23 (L2)'
+ChromeCleanupReportingEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://www.tenable.com/audits/items/CIS_Google_Chrome_L1_v3.0.0.audit:7d5d559dbb52f1514df11bb0b4f2db59'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Control how Chrome Cleanup reports data to Google'
+  cis_id: '3.6 (L1)'

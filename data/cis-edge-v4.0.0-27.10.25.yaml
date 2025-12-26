@@ -1,0 +1,959 @@
+EnableMediaRouter:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/DeployEdge/microsoft-edge-browser-policies/enablemediarouter'
+  level: 'L1' 
+  recommended_value: ['false']
+  policy_name: 'Enable Google Cast'
+  cis_id: '1.2.1 (L1)'
+CACertificateManagementAllowed:
+  default_value: '1'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/cacertificatemanagementallowed'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Allow users to manage installed CA certificates.'
+  cis_id: '1.3.1 (L1)'
+FileSystemReadAskForUrls:
+  default_value: ''
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/filesystemreadaskforurls'
+  level: 'L2'
+  recommended_value: ''
+  policy_name: 'Allow read access via the File System API on these sites'
+  cis_id: '1.4.1 (L2)'
+SpotlightExperiencesAndRecommendationsEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/spotlightexperiencesandrecommendationsenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Choose whether users can receive customized background images and text, suggestions, notifications, and tips for Microsoft services'
+  cis_id: '1.4.2 (L2)'
+DefaultInsecureContentSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultinsecurecontentsetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Control use of insecure content exceptions'
+  cis_id: '1.4.3 (L1)'
+DefaultJavaScriptJitSetting:
+  default_value: '1'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultjavascriptjitsetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of JavaScript JIT'
+  cis_id: '1.4.4 (L2)'
+DefaultFileSystemReadGuardSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultfilesystemreadguardsetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the File System API for reading'
+  cis_id: '1.4.5 (L2)'
+DefaultFileSystemWriteGuardSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultfilesystemwriteguardsetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Control use of the File System API for writing'
+  cis_id: '1.4.6 (L1)'
+DefaultWebBluetoothGuardSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultwebbluetoothguardsetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the Web Bluetooth API'
+  cis_id: '1.4.7 (L2)'
+DefaultWebHidGuardSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultwebhidguardsetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the WebHID API'
+  cis_id: '1.4.8 (L2)'
+DefaultAutomaticDownloadsSetting:
+  default_value: 'enabled'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultautomaticdownloadssetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Default automatic downloads setting'
+  cis_id: '1.4.9 (L1)'
+DefaultGeolocationSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultgeolocationsetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Default geolocation setting'
+  cis_id: '1.4.10 (L1)'
+DefaultThirdPartyStoragePartitioningSetting:
+  default_value: '1'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultthirdpartystoragepartitioningsetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Default setting for third-party storage partitioning'
+  cis_id: '1.4.11 (L2)'
+ShowDownloadsInsecureWarningsEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/showdownloadsinsecurewarningsenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable insecure download warnings'
+  cis_id: '1.6.1 (L1)'
+TyposquattingCheckerEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/typosquattingcheckerenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Configure Edge Website Typo Protection'
+  cis_id: '1.7.1 (L1)'
+FeatureFlagoverridesControl:
+  default_value: '1'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/featureflagoverridescontrol'
+  level: 'L1'
+  recommended_value: ['0']
+  policy_name: 'Configure users ability to override feature flags'
+  cis_id: '1.9.1 (L1)'
+BlockExternalExtensions:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/blockexternalextensions'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Blocks external extensions from being installed'
+  cis_id: '1.10.1 (L1)'
+ExtensionSettings:
+  default_value: ''
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/extensionsettings'
+  level: 'L2'
+  recommended_value: ['{ "*": {"installation_mode": "blocked" }}']
+  policy_name: 'Configure extension management settings'
+  cis_id: '1.10.2 (L2)'
+GamerModeEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/gamermodeenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable Gamer Mode'
+  cis_id: '1.11.1 (L1)'
+BasicAuthOverHttpEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/basicauthoverhttpenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow Basic authentication for HTTP'
+  cis_id: '1.13.1 (L1)'
+AllowCrossOriginAuthPrompt:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/allowcrossoriginauthprompt'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow cross-origin HTTP Authentication prompts'
+  cis_id: '1.13.2 (L1)'
+AuthSchemes:
+  default_value: ['basic','digest','ntlm','negotiate']
+  doc_url: https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/authschemes
+  level: 'L2'
+  recommended_value: ['ntlm','negotiate']
+  policy_name: 'Supported authentication schemes'
+  cis_id: '1.13.3 (L2)'
+GuidedSwitchEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/guidedswitchenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Guided Switch Enabled'
+  cis_id: '1.14.1 (L1)'
+LocalNetworkAccessRestrictionsEnabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/localnetworkaccessrestrictionsenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Specifies whether to block requests from public websites to devices on a user''s local network.'
+  cis_id: '1.20.1 (L1)'
+PasswordManagerEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/passwordmanagerenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable saving passwords to the password manager'
+  cis_id: '1.21.1 (L1)'
+StartupBoostEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/startupboostenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable startup boost'
+  cis_id: '1.24.1 (L1)'
+SmartScreenEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/smartscreenenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Configure Microsoft Defender SmartScreen'
+  cis_id: '1.31.1 (L1)'
+SmartScreenPuaEnabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/smartscreenpuaenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Configure Microsoft Defender SmartScreen to block potentially unwanted apps'
+  cis_id: '1.31.2 (L1)'
+SmartScreenDnsRequestsEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/smartscreendnsrequestsenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable Microsoft Defender SmartScreen DNS requests'
+  cis_id: '1.31.3 (L1)'
+SmartScreenForTrustedDownloadsEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/smartscreenfortrusteddownloadsenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Force Microsoft Defender SmartScreen checks on downloads from trusted sources'
+  cis_id: '1.31.4 (L1)'
+PreventSmartScreenPromptOverride:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/preventsmartscreenpromptoverride'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Prevent bypassing Microsoft Defender SmartScreen prompts for sites'
+  cis_id: '1.31.5 (L1)'
+PreventSmartScreenPromptOverrideForFiles:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/preventsmartscreenpromptoverrideforfiles'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Prevent bypassing of Microsoft Defender SmartScreen warnings about downloads'
+  cis_id: '1.31.6 (L1)'
+NewTabPageBingChatEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/newtabpagebingchatenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Disable Bing chat entry-points on Microsoft Edge Enterprise new tab page'
+  cis_id: '1.32.1 (L1)'
+AdsSettingForIntrusiveAdsSites:
+  default_value: '2'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/adssettingforintrusiveadssites'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Ads setting for sites with intrusive ads'
+  cis_id: '1.33 (L1)'
+DownloadRestrictions:
+  default_value: '0'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/downloadrestrictions'
+  level: 'L1'
+  recommended_value: ['4']
+  policy_name: 'Allow download restrictions'
+  cis_id: '1.34 (L1)'
+EdgeAssetDeliveryServiceEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/edgeassetdeliveryserviceenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow features to download assets from the Asset Delivery Service'
+  cis_id: '1.35 (L2)'
+AllowFileSelectionDialogs:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/allowfileselectiondialogs'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow file selection dialogs'
+  cis_id: '1.36 (L2)'
+MediaRouterCastAllowAllIPs:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/mediaroutercastallowallips'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow Google Cast to connect to Cast devices on all IP addresses'
+  cis_id: '1.37 (L1)'
+ImportOnEachLaunch:
+  default_value: 'user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importoneachlaunch'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow import of data from other browsers on each Microsoft Edge launch'
+  cis_id: '1.38 (L1)'
+ImportAutofillFormData:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importautofillformdata'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow importing of autofill form data'
+  cis_id: '1.39 (L1)'
+ImportBrowserSettings:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importbrowsersettings'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow importing of browser settings'
+  cis_id: '1.40 (L1)'
+ImportHomepage:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importhomepage'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow importing of home page settings'
+  cis_id: '1.41 (L1)'
+ImportPaymentInfo:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importpaymentinfo'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow importing of payment info'
+  cis_id: '1.42 (L1)'
+ImportSavedPasswords:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importsavedpasswords'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow importing of saved passwords'
+  cis_id: '1.43 (L1)'
+ImportSearchEngine:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/importsearchengine'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow importing of search engine settings'
+  cis_id: '1.44 (L1)'
+EnterpriseHardwarePlatformAPIEnabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/enterprisehardwareplatformapienabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow managed extensions to use the Enterprise Hardware Platform API'
+  cis_id: '1.45 (L1)'
+AudioCaptureAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/audiocaptureallowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or block audio capture'
+  cis_id: '1.46 (L2)'
+VideoCaptureAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/videocaptureallowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or block video capture'
+  cis_id: '1.47 (L2)'
+ScreenCaptureAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/screencaptureallowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow or deny screen capture'
+  cis_id: '1.48 (L2)'
+PersonalizationReportingEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/personalizationreportingenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow personalization of ads, Microsoft Edge, search, news and other Microsoft services by sending browsing history, favorites and collections, usage and other browsing data to Microsoft'
+  cis_id: '1.49 (L1)'
+BrowserNetworkTimeQueriesEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/browsernetworktimequeriesenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Allow queries to a Browser Network Time service'
+  cis_id: '1.50 (L1)'
+RemoteDebuggingAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/remotedebuggingallowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow remote debugging'
+  cis_id: '1.51 (L1)'
+AudioSandboxEnabled:
+  default_value: 'not configured - The default configuration for the audio sandbox will be used'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/audiosandboxenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Allow the audio sandbox to run'
+  cis_id: '1.52 (L1)'
+InternetExplorerIntegrationReloadInIEModeAllowed:
+  default_value: 'not configured'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/internetexplorerintegrationreloadiniemodeallowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow unconfigured sites to be reloaded in Internet Explorer mode'
+  cis_id: '1.53 (L2)'
+UserFeedbackAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/userfeedbackallowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow user feedback'
+  cis_id: '1.54 (L1)'
+ClickOnceEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/clickonceenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow users to open files using the ClickOnce protocol'
+  cis_id: '1.55 (L2)'
+DirectInvokeEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/directinvokeenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow users to open files using the DirectInvoke protocol'
+  cis_id: '1.56 (L2)'
+SSLErrorOverrideAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/sslerroroverrideallowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Allow users to proceed from the HTTPS warning page'
+  cis_id: '1.57 (L2)'
+AllowWebAuthnWithBrokenTlsCerts:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/allowwebauthnwithbrokentlscerts'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow Web Authentication requests on sites with broken TLS certificates.'
+  cis_id: '1.58 (L1)'
+PaymentMethodQueryEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/paymentmethodqueryenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Allow websites to query for available payment methods'
+  cis_id: '1.59 (L1)'
+AutoLaunchProtocolsComponentEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/autolaunchprotocolscomponentenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'AutoLaunch Protocols Component Enabled'
+  cis_id: '1.60 (L2)'
+AutoImportAtFirstRun:
+  default_value: '0'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/autoimportatfirstrun'
+  level: 'L1'
+  recommended_value: ['4']
+  policy_name: 'Automatically import another browser''s data and settings at first run'
+  cis_id: '1.61 (L1)'
+InternetExplorerIntegrationZoneIdentifierMhtFileAllowed:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/internetexplorerintegrationzoneidentifiermhtfileallowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Automatically open downloaded MHT or MHTML files from the web in Internet Explorer mode'
+  cis_id: '1.62 (L1)'
+BlockThirdPartyCookies:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/blockthirdpartycookies'
+  level: 'L2'
+  recommended_value: ['true']
+  policy_name: 'Block third party cookies'
+  cis_id: '1.63 (L2)'
+TrackingPrevention:
+  default_value: 'disabled: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/trackingprevention'
+  level: 'L1'
+  recommended_value: ['2', '3']
+  policy_name: 'Block tracking of users'' web-browsing activity'
+  cis_id: '1.64 (L1)'
+BrowserSignin:
+  default_value: 'not configured: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/browsersignin'
+  level: 'L2'
+  recommended_value: ['0']
+  policy_name: 'Browser sign-in settings'
+  cis_id: '1.65 (L2)'
+ClearBrowsingDataOnExit:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/clearbrowsingdataonexit'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Clear browsing data when Microsoft Edge closes'
+  cis_id: '1.66 (L1)'
+ClearCachedImagesAndFilesOnExit:
+  default_value: 'not configured: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/clearcachedimagesandfilesonexit'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Clear cached images and files when Microsoft Edge closes'
+  cis_id: '1.67 (L1)'
+InternetExplorerModeClearDataOnExitEnabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/internetexplorermodecleardataonexitenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Clear history for IE and IE mode every time you exit'
+  cis_id: '1.68 (L1)'
+BrowserCodeIntegritySetting:
+  default_value: '0'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/browsercodeintegritysetting'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Configure browser process code integrity guard setting'
+  cis_id: '1.69 (L1)'
+InPrivateModeAvailability:
+  default_value: '0'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/inprivatemodeavailability'
+  level: 'L1'
+  recommended_value: ['1']
+  policy_name: 'Configure InPrivate mode availability'
+  cis_id: '1.70 (L1)'
+ConfigureOnlineTextToSpeech:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/configureonlinetexttospeech'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Configure Online Text To Speech'
+  cis_id: '1.71 (L2)'
+RelatedMatchesCloudServiceEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/relatedmatchescloudserviceenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Configure Related Matches in Find on Page'
+  cis_id: '1.72 (L1)'
+SpeechRecognitionEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/speechrecognitionenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Configure Speech Recognition'
+  cis_id: '1.73 (L2)'
+HSTSPolicyBypassList:
+  default_value: ''
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/hstspolicybypasslist'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Configure the list of names that will bypass the HSTS policy check'
+  cis_id: '1.74 (L1)'
+SyncTypesListDisabled:
+  default_value: ''
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/synctypeslistdisabled'
+  level: 'L1'
+  recommended_value: ['passwords']
+  policy_name: 'Configure the list of types that are excluded from synchronization'
+  cis_id: '1.75 (L1)'
+ConfigureShare:
+  default_value: '0'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/configureshare'
+  level: 'L1'
+  recommended_value: ['1']
+  policy_name: 'Configure the Share experience'
+  cis_id: '1.76 (L1)'
+BackgroundModeEnabled:
+  default_value: 'false: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/backgroundmodeenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Continue running background apps after Microsoft Edge closes'
+  cis_id: '1.77 (L1)'
+ExperimentationAndConfigurationServiceControl:
+  default_value: '1'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/experimentationandconfigurationservicecontrol'
+  level: 'L1'
+  recommended_value: ['0']
+  policy_name: 'Control communication with the Experimentation and Configuration Service'
+  cis_id: '1.78 (L1)'
+HeadlessModeEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/headlessmodeenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Control use of the Headless Mode'
+  cis_id: '1.79 (L2)'
+DefaultSerialGuardSetting:
+  default_value: '3'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultserialguardsetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Control use of the Serial API'
+  cis_id: '1.80 (L2)'
+OverrideSecurityRestrictionsOnInsecureOrigin:
+  default_value: ''
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/overridesecurityrestrictionsoninsecureorigin'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Control where security restrictions on insecure origins apply'
+  cis_id: '1.81 (L1)'
+DefaultSensorsSetting:
+  default_value: '1'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/defaultsensorssetting'
+  level: 'L2'
+  recommended_value: ['2']
+  policy_name: 'Default sensors setting'
+  cis_id: '1.82 (L2)'
+DeleteDataOnMigration:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/deletedataonmigration'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Delete old browser data on migration'
+  cis_id: '1.83 (L1)'
+SavingBrowserHistoryDisabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/savingbrowserhistorydisabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Disable saving browser history'
+  cis_id: '1.84 (L1)'
+SyncDisabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/syncdisabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Disable synchronization of data using Microsoft sync services'
+  cis_id: '1.85 (L1)'
+DNSInterceptionChecksEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/dnsinterceptionchecksenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'DNS interception checks enabled'
+  cis_id: '1.86 (L1)'
+DynamicCodeSettings:
+  default_value: '0'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/dynamiccodesettings'
+  level: 'L1'
+  recommended_value: ['1']
+  policy_name: 'Dynamic Code Settings'
+  cis_id: '1.87 (L1)'
+Edge3PSerpTelemetryEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/edge3pserptelemetryenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Edge 3P SERP Telemetry Enabled'
+  cis_id: '1.88 (L1)'
+EdgeWalletEtreeEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/edgewalletetreeenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Edge Wallet E-Tree Enabled'
+  cis_id: '1.89 (L1)'
+ApplicationBoundEncryptionEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/applicationboundencryptionenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable Application Bound Encryption'
+  cis_id: '1.90 (L1)'
+AutofillAddressEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/autofilladdressenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable AutoFill for addresses'
+  cis_id: '1.91 (L1)'
+AutofillCreditCardEnabled:
+  default_value: 'true, but user can change this setting'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/autofillcreditcardenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable AutoFill for payment instruments'
+  cis_id: '1.92 (L1)'
+BrowserLegacyExtensionPointsBlockingEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/browserlegacyextensionpointsblockingenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable browser legacy extension point blocking'
+  cis_id: '1.93 (L1)'
+ComponentUpdatesEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/componentupdatesenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable component updates in Microsoft Edge'
+  cis_id: '1.94 (L1)'
+AllowDeletingBrowserHistory:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/allowdeletingbrowserhistory'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable deleting browser and download history'
+  cis_id: '1.95 (L1)'
+EdgeEDropEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/edgeedropenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable Drop feature in Microsoft Edge'
+  cis_id: '1.96 (L2)'
+GloballyScopeHTTPAuthCacheEnabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/globallyscopehttpauthcacheenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable globally scoped HTTP auth cache'
+  cis_id: '1.97 (L1)'
+BrowserGuestModeEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/browserguestmodeenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable guest mode'
+  cis_id: '1.98 (L2)'
+NetworkPredictionOptions:
+  default_value: 'enabled: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/networkpredictionoptions'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Enable network prediction'
+  cis_id: '1.99 (L1)'
+BrowserAddProfileEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/browseraddprofileenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable profile creation from the Identity flyout menu or the Settings page'
+  cis_id: '1.100 (L1)'
+ResolveNavigationErrorsUseWebService:
+  default_value: 'not configured: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/resolvenavigationerrorsusewebservice'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable resolution of navigation errors using a web service'
+  cis_id: '1.101 (L1)'
+SearchSuggestEnabled:
+  default_value: 'true: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/searchsuggestenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable search suggestions'
+  cis_id: '1.102 (L2)'
+CommandLineFlagSecurityWarningsEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/commandlineflagsecuritywarningsenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable security warnings for command-line flags'
+  cis_id: '1.103 (L1)'
+SitePerProcess:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/siteperprocess'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable site isolation for every site'
+  cis_id: '1.104 (L1)'
+SearchbarAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/searchbarallowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable the Search bar'
+  cis_id: '1.105 (L1)'
+TabServicesEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/tabservicesenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable tab organization suggestions'
+  cis_id: '1.106 (L1)'
+TranslateEnabled:
+  default_value: 'true: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/translateenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable Translate'
+  cis_id: '1.107 (L2)'
+UploadFromPhoneEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/uploadfromphoneenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable upload files from mobile in Microsoft Edge desktop'
+  cis_id: '1.108 (L1)'
+ForceEphemeralProfiles:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/forceephemeralprofiles'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enable use of ephemeral profiles'
+  cis_id: '1.109 (L1)'
+InsecureFormsWarningsEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/insecureformswarningsenabled'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Enable warnings for insecure forms'
+  cis_id: '1.110 (L1)'
+QRCodeGeneratorEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/qrcodegeneratorenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enable QR Code Generator'
+  cis_id: '1.111 (L2)'
+AIGenThemesEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/aigenthemesenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Enables DALL-E themes generation'
+  cis_id: '1.112 (L1)'
+ForceBingSafeSearch:
+  default_value: 'disabled: user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/forcebingsafesearch'
+  level: 'L2'
+  recommended_value: ['1']
+  policy_name: 'Enforce Bing SafeSearch'
+  cis_id: '1.113 (L2)'
+ForceGoogleSafeSearch:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/forcegooglesafesearch'
+  level: 'L2'
+  recommended_value: ['true']
+  policy_name: 'Enforce Google SafeSearch'
+  cis_id: '1.114 (L2)'
+EnhanceSecurityMode:
+  default_value: 'disabled'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/enhancesecuritymode'
+  level: 'L1'
+  recommended_value: ['1', '2']
+  policy_name: 'Enhance the security state in Microsoft Edge'
+  cis_id: '1.115 (L1)'
+EnhanceSecurityModeBypassIntranet:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/enhancesecuritymodebypassintranet'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Enhanced Security Mode configuration for Intranet zone sites'
+  cis_id: '1.116 (L2)'
+HideFirstRunExperience:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/hidefirstrunexperience'
+  level: 'L1'
+  recommended_value: ['true']
+  policy_name: 'Hide the First-run experience and splash screen'
+  cis_id: '1.117 (L1)'
+InAppSupportEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/inappsupportenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'In-app support Enabled'
+  cis_id: '1.118 (L1)'
+LiveCaptionsAllowed:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/livecaptionsallowed'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Live captions allowed'
+  cis_id: '1.119 (L2)'
+WebRtcLocalIpsAllowedUrls:
+  default_value: ''
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/webrtclocalipsallowedurls'
+  level: 'L1'
+  recommended_value: ''
+  policy_name: 'Manage exposure of local IP addressess by WebRTC'
+  cis_id: '1.120 (L1)'
+RelaunchNotification:
+  default_value: 'not configured'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/relaunchnotification'
+  level: 'L1'
+  recommended_value: ['2']
+  policy_name: 'Notify a user that a browser restart is recommended or required for pending updates'
+  cis_id: '1.121 (L1)'
+DiskCacheSize:
+  default_value: 'enabled: defaule size'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/diskcachesize'
+  level: 'L1'
+  recommended_value: ['250609664']
+  policy_name: 'Set disk cache size, in bytes'
+  cis_id: '1.122 (L1)'
+RelaunchNotificationPeriod:
+  default_value: '604800000'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/relaunchnotificationperiod'
+  level: 'L1'
+  recommended_value: ['250609664']
+  policy_name: 'Set the time period for update notifications'
+  cis_id: '1.123 (L1)'
+EdgeShoppingAssistantEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/edgeshoppingassistantenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Shopping in Microsoft Edge Enabled'
+  cis_id: '1.124 (L1)'
+ExternalProtocolDialogShowAlwaysOpenCheckbox:
+  default_value: 'user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/externalprotocoldialogshowalwaysopencheckbox'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Show an "Always open" checkbox in external protocol dialog'
+  cis_id: '1.125 (L2)'
+ShowMicrosoftRewards:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/showmicrosoftrewards'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Show Microsoft Rewards experiences'
+  cis_id: '1.126 (L1)'
+InternetExplorerModeToolbarButtonEnabled:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/internetexplorermodetoolbarbuttonenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Show the Reload in Internet Explorer mode button in the toolbar'
+  cis_id: '1.127 (L1)'
+SharedArrayBufferUnrestrictedAccessAllowed:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/sharedarraybufferunrestrictedaccessallowed'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Specifies whether SharedArrayBuffers can be used in a non cross-origin-isolated context'
+  cis_id: '1.128 (L1)'
+RequireOnlineRevocationChecksForLocalAnchors:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/requireonlinerevocationchecksforlocalanchors'
+  level: 'L2'
+  recommended_value: ['true']
+  policy_name: 'Specify if online OCSP/CRL checks are required for local trust anchors'
+  cis_id: '1.129 (L2)'
+MicrosoftEditorProofingEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/microsofteditorproofingenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Spell checking provided by Microsoft Editor'
+  cis_id: '1.130 (L2)'
+StandaloneHubsSidebarEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/standalonehubssidebarenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Standalone Sidebar Enabled'
+  cis_id: '1.131 (L1)'
+AlternateErrorPagesEnabled:
+  default_value: 'user can change it'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/alternateerrorpagesenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Suggest similar pages when a webpage can''t be found'
+  cis_id: '1.132 (L1)'
+SuppressUnsupportedOSWarning:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/suppressunsupportedoswarning'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Suppress the unsupported OS warning'
+  cis_id: '1.133 (L1)'
+TextPredictionEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/textpredictionenabled'
+  level: 'L2'
+  recommended_value: ['false']
+  policy_name: 'Text prediction enabled by default'
+  cis_id: '1.134 (L2)'
+InternetExplorerIntegrationAlwaysWaitForUnload:
+  default_value: 'false'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/internetexplorerintegrationalwayswaitforunload'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Wait for Internet Explorer mode tabs to completely unload before ending the browser session'
+  cis_id: '1.135 (L1)'
+WalletDonationEnabled:
+  default_value: 'true'
+  doc_url: 'https://learn.microsoft.com/en-us/deployedge/microsoft-edge-browser-policies/walletdonationenabled'
+  level: 'L1'
+  recommended_value: ['false']
+  policy_name: 'Wallet Donation Enabled'
+  cis_id: '1.136 (L1)'
