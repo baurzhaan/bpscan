@@ -46,8 +46,9 @@ python bpscan.py --file Policies.html --browser chrome --cis data/cis-chrome-v3.
   --output OUTPUT       Where to save the CSV comparison output. Default: comparison_results.csv
 ```
 
-```markdown
 ### 📊 Example CSV Report (`output.csv`)
+
+```markdown
 | policy_id | policy_name | level | browser_value | effective_value | cis_recommended_value | compliant | value_source | rationale | impact
 | EnableMediaRouter | Enable Google Cast | L1 | false | false | ['false'] | True | explicit | rationale | impact |
 | CACertificateManagementAllowed | Allow users to manage installed CA certificates. | L1 |  | 1 | ['2'] | False | default | rationale | impact
