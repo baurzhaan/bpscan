@@ -67,7 +67,7 @@ This tool is designed with a **privacy-first** approach:
 
 * **Local Processing:** All data processing happens on your local machine.
 * **No Data Collection:** Policy data never leaves your local machine.
-* **Open Source:** You are encouraged to review the `bpscan.py` source code to verify that no network requests are being made.
+* **Open Source:** You are encouraged to review the source code.
 
 ## 📣 Feedback & Contributions
 
